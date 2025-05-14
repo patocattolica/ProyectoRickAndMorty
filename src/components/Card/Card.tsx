@@ -27,7 +27,7 @@ export const Card = ({imageUrl,nombre,species,location,status }: CardProps) => {
         <div className="card-meta">
           <p className="card-species">{species}</p>
           <p className="card-location">{location}</p>
-          {status && <span className="card-status-badge">{status}</span>}
+          <p className="card-status">{status}</p>
         </div>
       </div>
     </div>
